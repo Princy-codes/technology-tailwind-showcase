@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Importance of Technology</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Heroicons CDN -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- AOS (Animate on Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gradient-to-r from-purple-100 via-pink-100 to-blue-100 text-gray-800">
+    <!-- Header / Hero -->
+    <header class="relative overflow-hidden text-center py-20 bg-gradient-to-r from-pink-200 to-purple-200 shadow-lg">
+      <div class="max-w-4xl mx-auto px-6">
+        <h1 class="text-5xl md:text-6xl font-extrabold text-purple-800 drop-shadow-lg" data-aos="fade-down">
+          The Importance of Technology
+        </h1>
+        <p class="mt-4 text-lg md:text-xl text-gray-700" data-aos="fade-up" data-aos-delay="200">
+          Empowering Generations. Transforming the Future.
+        </p>
+        <button
+          class="mt-6 px-6 py-3 bg-purple-600 text-white font-semibold rounded-full hover:bg-purple-700 transition duration-300 shadow-md"
+          data-aos="zoom-in"
+        >
+          Learn More
+        </button>
+      </div>
+    </header>
+
+    <!-- Section 1 -->
+    <section class="px-6 md:px-20 py-16 bg-pink-50" data-aos="fade-up">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <img
+          src="img/pic1.avif"
+          alt="Tech Image"
+          class="rounded-xl shadow-lg hover:scale-105 transition duration-300"
+        />
+        <div>
+          <h2 class="text-3xl font-semibold text-purple-700 mb-4">Technology in Our Daily Lives</h2>
+          <p class="text-lg text-gray-700 leading-relaxed">
+            From smartphones to smart homes, technology is deeply integrated into our lives. It helps us stay connected,
+            learn continuously, and make decisions with real-time insights. The digital age has made information
+            accessible, breaking barriers and empowering individuals globally.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="px-6 md:px-20 py-16 bg-gradient-to-r from-blue-200 via-white to-pink-100" data-aos="fade-up">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h2 class="text-3xl font-semibold text-blue-700 mb-4">Innovation Driving Progress</h2>
+          <p class="text-lg text-gray-700 leading-relaxed">
+            Technology fuels innovation across industries—healthcare, education, and more. AI, blockchain, and automation
+            are revolutionizing the way we live and work. These advancements are not just changing industries; they're
+            enhancing human potential.
+          </p>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+          alt="Innovation"
+          class="rounded-xl shadow-lg hover:scale-105 transition duration-300"
+        />
+      </div>
+    </section>
+
+    <!-- Section 3: Cards -->
+    <section class="px-6 md:px-20 py-16 bg-purple-50" data-aos="zoom-in-up">
+      <h2 class="text-3xl text-center font-bold text-gray-800 mb-12">Key Benefits of Technology</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-purple-100 p-6 rounded-xl shadow-md hover:scale-105 transition duration-300">
+          <div class="text-purple-700 mb-3">
+            <i data-feather="wifi" class="w-8 h-8"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-purple-800 mb-2">Connectivity</h3>
+          <p class="text-gray-700">Stay connected with anyone, anywhere, instantly using modern communication tools.</p>
+        </div>
+        <div class="bg-pink-100 p-6 rounded-xl shadow-md hover:scale-105 transition duration-300">
+          <div class="text-pink-700 mb-3">
+            <i data-feather="book-open" class="w-8 h-8"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-pink-800 mb-2">Learning</h3>
+          <p class="text-gray-700">Access knowledge, tutorials, and courses from anywhere in the world.</p>
+        </div>
+        <div class="bg-blue-100 p-6 rounded-xl shadow-md hover:scale-105 transition duration-300">
+          <div class="text-blue-700 mb-3">
+            <i data-feather="activity" class="w-8 h-8"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">Efficiency</h3>
+          <p class="text-gray-700">Automate tasks, reduce workload, and enhance productivity in all sectors.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-8 bg-purple-700 text-white mt-10">
+      <p class="text-md">Made by <span class="font-semibold">Princy Kotak</span> | Tailwind CSS Showcase</p>
+    </footer>
+
+    <!-- AOS & Feather Icons Init -->
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+      feather.replace();
+    </script>
+  </body>
+</html>
